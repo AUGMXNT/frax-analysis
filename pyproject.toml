@@ -8,6 +8,7 @@ authors = ["lhl <lhl@randomfoo.net>"]
 python = "^3.10"
 numpy = "^1.22.2"
 httpx = "^0.22.0"
+web3 = "^5.28.0"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
