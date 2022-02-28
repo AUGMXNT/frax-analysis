@@ -9,7 +9,7 @@ To run:
 poetry install
 
 # To run Jupyter Notebook
-poetry run jupyter notebook
+poetry run jupyter lab
 ```
 
 For more data resources, see:
