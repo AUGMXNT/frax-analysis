@@ -89,5 +89,18 @@ class Cache:
     return result
 
 
+  def set_simple(self, key, value):
+    sql = 'REPLACE INTO cache (key, value) VALUES (?, ?)'
+    params = [key, value]
+    self.db.execute(sql, params)
+
+  def get_simple(self, key):
+    r = self.db.query('SELECT value FROM cache WHERE key = ? ORDER BY saved DESC LIMIT 1', key)
+    if r:
+      return r[0][0]
+    else:
+      return None
+
+
 ### Make cache available as a singleton
 cache = Cache()
