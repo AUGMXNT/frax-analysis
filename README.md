@@ -19,3 +19,9 @@ For more data resources, see:
 
 Useful references:
 * https://github.com/FraxFinance/frax-solidity/blob/master/src/types/constants.ts
+
+TODO:
+* Pull in Governance Voting
+* veFXS Linear Vest Return Model
+* Max Return Calculator and Returns Calculator w/ veFXS
+* Pull in Gauge Voting Results
