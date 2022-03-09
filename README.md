@@ -26,3 +26,4 @@ TODO:
 * Max Return Calculator and Returns Calculator w/ veFXS
 * Pull in Gauge Voting Results
 * Look at Gauge Stakers and Match to see what their Gauge Voting is
+* Add checking to see if you have any reards in old stuff like veFXSYieldDistributorV3 
